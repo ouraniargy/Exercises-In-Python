@@ -26,11 +26,7 @@ print(auth.access_token,auth.access_token_secret)
 
 api = tweepy.API(auth,wait_on_rate_limit=True)
 me = api.me()
-print (me.screen_name)
-
 my_timline = api.home_timeline()
-for status in my_timline:
-    print(status.text)
 
 user = api.get_user("code")
 user_timeline = user.timeline()
