@@ -73,4 +73,3 @@ for i in range (1,81):
 for i in range(1,81):
     print ("Ο ΑΡΙΘΜΟΣ",i,"ΕΜΦΑΝΙΣΤΗΚΕ",(pinar[i]/sum)*100,"%")
     apot=apot+(pinar[i]/sum)*100
-print (int(apot)) #100% ελεγχος για σωστα αποτελεσματα στα στατιστικα
